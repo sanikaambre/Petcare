@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+body{
+  background: #FEFAEF;  /* fallback for old browsers */
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register{
+  max-width: 1000px;
+  width: 100vw;
+  height: 735px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: #FEFAEF;
+}
+
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 600vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: orangered;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
+.question-container {
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: white; /* Set background color to white */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style the question label */
+  .question-label {
+    color: #808080; /* Match the text color of other input boxes */
+    font-size: 1em; /* Match the font size */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Style the radio button options */
+  .question-options input[type="radio"] {
+    border: 1px solid #e9ecef; /* Match the border color */
+    padding: 0.4em 1em; /* Adjust padding as needed */
+    background-color: #FEFAEF; /* Match the background color */
+    margin-right: 10px; /* Adjust margin as needed between options */
+  }
+  
+  /* Style the labels for the radio button options */
+  .question-options label {
+    color: #808080; /* Match the text color of other input boxes */
+    font-size: 1em; /* Match the font size */
+  }
+  
+  /* Style the selected radio button label */
+  .question-options input[type="radio"]:checked + label {
+    font-weight: bold; /* Optional: Make the selected label bold */
+  }
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+
+
+  
